@@ -4,8 +4,13 @@ set nocompatible "be iMproved
 filetype off
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/vimfiles/bundle/Vundle.vim
-let path='~/vimfiles/bundle'
+if s:is_windows
+    set rtp+=~/vimfiles/bundle/Vundle.vim
+    let path='~/vimfiles/bundle'
+else
+    set rtp+=~/.vim/bundle/Vundle.vim
+endif
+
 call vundle#begin()
 
 " let Vundle manage Vundle
@@ -63,7 +68,7 @@ command! Q q
 command! C nohlsearch
 
 if has('gui_running')
-	set guifont=DejaVu_Sans_Mono_for_Powerline:h11
+    set guifont=DejaVu_Sans_Mono_for_Powerline:h11
 endif
 
 " --- Plugin Specific ---
