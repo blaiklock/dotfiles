@@ -22,6 +22,7 @@
     cd fonts
     ./install.sh
     ```
-5. Open vim and run
+5. Add `export TERM=xterm-256color` to `.zshrc`
+6. Open vim and run
     `:PluginInstall`
-6. Happy vimming!
+7. Happy vimming!
