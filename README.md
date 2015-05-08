@@ -12,11 +12,11 @@
     - In Windows run
         `mklink _vimrc dotfiles\_vimrc`
 4. Install powerline fonts
-    ~~~
+    ```
     git clone https://github.com/powerline/fonts.git
     cd fonts
     ./install.sh
-    ~~~
+    ```
 5. Open vim and run
     `:PluginInstall`
 6. Happy vimming!
