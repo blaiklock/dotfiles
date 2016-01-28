@@ -22,7 +22,8 @@
     cd fonts
     ./install.sh
     ```
-5. Add `export TERM=xterm-256color` to `.zshrc`
-6. Open vim and run
+5. For Mac, change Terminal.app font to the same font being used by airline.
+6. Add `export TERM=xterm-256color` to `.zshrc`
+7. Open vim and run
     `:PluginInstall`
-7. Happy vimming!
+8. Happy vimming!

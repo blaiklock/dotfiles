@@ -82,6 +82,12 @@ let g:airline_powerline_fonts=1
 " Show airline for tabs too
 let g:airline#extensions#tabline#enabled=1
 
+" override the space character
+if !exists('g:airline_symbols')
+    let g:airline_symbols={}
+endif
+let g:airline_symbols.space="\ua0"
+
 " ----- airblade/vim-gitgutter -----
 " In vim-airline, only display "hunks" if the diff is non-zero
 let g:airline#extensions#hunks#non_zero_only=1
