@@ -16,6 +16,7 @@ call vundle#begin()
 " let Vundle manage Vundle
 Plugin 'gmarik/Vundle.vim'
 Plugin 'vim-scripts/xoria256.vim'
+Plugin 'morhetz/gruvbox'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
@@ -48,10 +49,12 @@ set hlsearch
 
 set expandtab
 "autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
-"autocmd FileType python setlocal tabstop=4 softtabstop=4 shiftwidth=4
+autocmd FileType python setlocal tabstop=4 softtabstop=4 shiftwidth=4
+autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 
-colorscheme xoria256
+colorscheme gruvbox
+set background=dark
 
 " enforce purity
 noremap <Up> <Nop>
