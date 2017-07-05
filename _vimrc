@@ -6,7 +6,7 @@ filetype off
 " set the runtime path to include Vundle and initialize
 if s:is_windows
     set rtp+=$HOME/vimfiles/bundle/Vundle.vim
-    let path='~/vimfiles/bundle'
+    let path='$HOME/vimfiles/bundle'
 else
     set rtp+=~/.vim/bundle/Vundle.vim
 endif
