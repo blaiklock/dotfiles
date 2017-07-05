@@ -7,7 +7,7 @@
         `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
     - In Windows
 
-        `git clone https://github.com/gmarik/Vundle.vim.git ~/vimfiles/bundle/Vundle.vim`
+        `git clone https://github.com/gmarik/Vundle.vim.git %USERPROFILE%/vimfiles/bundle/Vundle.vim`
 3. Create a soft symbolic link
     - In Ubuntu run
 
